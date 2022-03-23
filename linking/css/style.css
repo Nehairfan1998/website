@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap)
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 1.5rem 2.5rem;
+    margin: 1rem 0rem;
+    border: none;
+    transition: 0.2s;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%)
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    min-height: 10vh;
+    padding: 1rem;
+}
+.menu a{
+    text-decoration: none;
+    color: #a82d49;
+    margin-left: 1.5rem;
+}
+#Contact-number{
+    background-color: #a82d49;
+    color: #fff;
+    padding: 0.8rem;
+}
+
+.info{
+    background-image: url("http://demo.tutsflow.com/foodera/images/bg/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+.hero h1{
+    font-size: 5rem;
+}
+.hero p{
+    font-size: 2rem;
+    color: #555555;
+}
+.red{
+    background-color: #a82d49;
+    color: #fff;
+    border: 3px solid #a82d49;
+}
+.white{
+    background-color: #fff;
+    border: 3px solid #fff;
+    /* border: 3px solid #a82d49; */
+}
+.red:hover{
+    background-color: #fff;
+    color: #a82d49;
+    border: 3px solid #a82d49;
+}
+.white:hover{
+    border: 3px solid #a82d49;
+}
+/* highligts */
+.highlights{
+    padding: 4rem;
+    background-color: #a82d49;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.highlight h2{
+    font-size: 4rem;
+}
+.highlight p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* about us */
+.about{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.container{
+    display: flex;
+}
+.img-container{
+    flex: 1;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+.content-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.content-container h1{
+    font-size: 4rem;
+    line-height: 40px;
+}
+.content-container p {
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    color: #555555;
+}
+.content-container li{
+    list-style-type:none;
+    color: #555555;
+    font-size: 2rem;
+}
+.fixed{
+    width: 15rem;
+}
+.order{
+    order: 2;
+}
+.fa-check{
+    color: #a82d49;
+}
+/* contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    text-align: center;
+}
+.contact h1{
+    font-size: 3rem;
+}
+.contact p{
+    font-size: 2rem;
+}
+.contact p{
+    margin: 1rem;
+}
+.contact input{
+    padding: 1.75rem 1rem;
+    border: 2px solid #555555;
+    margin-right: 2rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    margin: 1rem;
+}
+input{
+    padding: 1rem 2rem;
+    border: none;
+    border-bottom: 2px solid rgb(141, 109, 172);
+    margin-right: 1rem;
+    outline: none;
+}
+button{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(141, 109, 172);
+    color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+footer{
+    background-color: #a82d49;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+   
+
